@@ -1,0 +1,130 @@
+li {
+  list-style:none;
+}
+  body {
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-japanese-mt--fuji-e-commerce-travel-poster-image_225628.jpg);
+    padding: 100px 0;
+   
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    
+    width: 800px;
+    min-height: 100%;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+}
+
+
+
+
+
+.header {
+    display: flex;
+    height: 150px;
+    
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://funart.pro/uploads/posts/2022-08/thumbs/1660255413_33-funart-pro-p-drevnyaya-yaponiya-art-krasivo-40.jpg) no-repeat center center/cover ;
+    color: rgb(12, 13, 15);
+    margin-right: 10px;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #404040;
+    opacity: 0.3;  
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://kartinkin.net/uploads/posts/2021-07/1625568149_51-kartinkin-com-p-syao-genshin-art-art-krasivo-62.jpg) no-repeat center center/cover ;
+}
+
+.nav ul {
+  display: flex;
+  background: rgb(231, 247, 255) ;
+  margin: 10px 0;
+}
+
+
+.nav li a {
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: #7e7e7e;
+  font-weight: bold;
+  border-right: 1px solid #939ba0;
+  transition: background .3s ease;
+}
+
+.nav li a:hover {
+  background: rgb(182, 198, 224);
+}
+
+.content-wrapper {
+
+
+}
+
+.content {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.sidebar {
+  border: 10px solid rgb(212, 218, 227) ;
+  padding: 20px;
+  max-width: 30%;
+}
+
+.skkills li {
+  margin: 10px 0;
+  transition: transform .5s ease;
+  cursor: pointer;
+}
+
+.skkills li:hover {
+ transform: translateX(10px);
+ 
+}
+.main-page {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.main-page *{
+  flex: 0 0 50%;
+}
+
+.account {
+  margin: 10px 0;
+
+}
